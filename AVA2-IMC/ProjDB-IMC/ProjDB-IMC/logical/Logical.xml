@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0B1BDF13-08E2-A6A0-42F3-371EAD337382" mainViewID="34C4B9D3-A47E-C961-0021-2FDA463CA65F">
-<createdBy>iago.lima</createdBy>
-<createdTime>2025-04-03 22:36:22 UTC</createdTime>
-<ownerDesignName>ProjDB-IMC</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

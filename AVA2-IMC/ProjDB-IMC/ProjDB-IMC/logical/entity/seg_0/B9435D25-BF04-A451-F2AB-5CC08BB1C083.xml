@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9435D25-BF04-A451-F2AB-5CC08BB1C083" name="Servico">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:07:02 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="avaliacaoIMC" id="063B8CAB-E404-2ECB-B1B4-37141158B2BE">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:07:13 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="consultoria" id="A74D1782-53C5-2622-644C-2148C5E20F5E">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:07:22 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acompanhamento" id="26933F51-284D-3936-D0F3-F2B9CAADC078">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:07:31 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="avaliacaoFisica" id="E5906595-5296-F1AE-4848-A9D9EAB88A6F">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:07:40 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exames" id="4E2E0121-14BB-2006-7F9A-0EF017F096E3">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:07:59 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dieta" id="C182E558-9FB0-6CCA-EFBA-92F3109C4B28">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:08:15 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

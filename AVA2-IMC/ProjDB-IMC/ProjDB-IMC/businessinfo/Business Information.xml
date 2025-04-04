@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="82FC03C8-4F2A-D081-F362-1196C07661BF">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 22:36:22 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

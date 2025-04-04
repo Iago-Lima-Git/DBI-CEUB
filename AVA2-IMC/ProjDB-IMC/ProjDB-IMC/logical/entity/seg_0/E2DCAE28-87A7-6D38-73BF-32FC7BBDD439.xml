@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2DCAE28-87A7-6D38-73BF-32FC7BBDD439" name="Clinica ">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:01:05 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="razaoSocial" id="36FB09C0-FC2C-BE4A-AFD5-7EDE02257E6D">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:01:47 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeClinica" id="09421300-914D-D01D-97EC-D4BEDF71F1C1">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:19:50 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="50B3CCF4-F7A2-78F7-585B-C55131665363">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:02:06 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contatoClinica" id="CDB7CB7C-E061-9D79-386A-84662EB39D24">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:02:17 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="C7B37116-8D35-3CF7-204E-64EE2C25B55E">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:02:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioFuncionamento" id="E4613479-1D0F-3DC3-053F-F93EC4D7D2C9">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:02:49 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="funcionarios" id="2CC330FE-55AD-E148-B177-C548C98F349C">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-04-03 23:19:14 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="2D0BA155-5EB5-6FA9-FBE4-772DABEC88A7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

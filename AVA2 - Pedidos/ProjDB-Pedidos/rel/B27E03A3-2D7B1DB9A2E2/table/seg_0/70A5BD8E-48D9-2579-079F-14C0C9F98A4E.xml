@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70A5BD8E-48D9-2579-079F-14C0C9F98A4E" name="Clientes">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>1F91B80A-C0B7-0C8F-B0E6-F8FBB4E1673F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente1" id="78E95F6B-0966-AA4B-6258-7377616F288B">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>A1105795-0A5F-DAB6-488C-C904E25324D9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCliente" id="4C18FF99-2F3D-29F7-469F-9FD9F293097B">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<generatorID>8BC99F08-2A79-24EE-CFA5-92AF8C15FBFA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FA09B74-F020-3115-255E-E7D525BDC246" name="Clientes_PK">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>FB336F34-CA59-6521-5866-58D75F068C5B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

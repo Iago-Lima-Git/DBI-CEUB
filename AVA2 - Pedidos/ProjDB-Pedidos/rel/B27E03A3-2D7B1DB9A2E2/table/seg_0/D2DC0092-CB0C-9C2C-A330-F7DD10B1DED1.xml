@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2DC0092-CB0C-9C2C-A330-F7DD10B1DED1" name="Pedidos">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>440E2A8F-3225-2545-6760-1667AC5A9FD2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroPedido" id="EC7F11FF-20C5-4E49-0955-291AF902EA76">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>A1B4AB27-01EA-7F5E-0E5E-1B81C1B19D64</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeClientePedido" id="7A7137BB-83D1-CB55-7ED8-21FB22E40ABB">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<comment><![CDATA[Nome completo do cliente que realizou a compra.]]></comment>
+<generatorID>5D87CF41-9E63-E06F-A906-3403B4309F7F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPedido" id="F86D5C15-ECE1-49E2-0919-209B3E027FEE">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<comment><![CDATA[Data do pedido que foi realizada a compra.]]></comment>
+<generatorID>1ECBF471-5594-26D1-E4A8-B0D21F8F8F1E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaPedido" id="807154C5-934C-217A-C44A-BC9E197C18F5">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<comment><![CDATA[Horário do pedido que foi realizada a compra.]]></comment>
+<generatorID>D1DA4C2F-7552-366C-D6AB-E3FDA2491695</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statusPedido" id="B57DEED6-D4FA-2ACE-C56B-B9A9DD4209D5">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>57D5BC17-0F88-C277-60F5-5F0ED7D02AFA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="169A1A04-DD3D-A02B-2675-167118D7A703">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>4BBBC923-A300-CCDC-857D-BE6C056BCDBD</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedor_matriculaVendedor" id="68E8D6B0-E749-56A4-CA09-D7835A6BE7AA">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>912D574E-2867-2ABC-2885-8A9BE3C18B6A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBC744E6-195D-5216-4AB0-87F8F8B3A393" referredColumn="794947B4-4F91-3742-1EC7-88B2B004907E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34F4CCD1-FB32-EB32-C9F7-C822A94C2893" name="Pedidos_PK">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>E766401D-51DD-3BC1-D759-C47E024EBF35</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC7F11FF-20C5-4E49-0955-291AF902EA76"/>
+<colUsage columnID="68E8D6B0-E749-56A4-CA09-D7835A6BE7AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AB974BF-64F1-D980-25D5-85FADB34A1DF" name="Pedidos_Vendedor_FK">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>D6BCBC29-50CC-D2DD-F00E-51332EEAD2E3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68E8D6B0-E749-56A4-CA09-D7835A6BE7AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D20DFA22-522B-F104-6B75-8B4715CEBC54" name="Pedidos_Clientes_FK">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>3DF0873A-ED68-1BB4-D53C-93A91E425E4A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

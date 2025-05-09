@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11BD8B2E-A4B0-6517-7E3F-7D4F05FEB372" name="Vendedor">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>76A91ED4-F660-29FD-D5FA-3F72AA4BF8A0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matriculaVendedor" id="794947B4-4F91-3742-1EC7-88B2B004907E">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>338D0CF9-51E9-0433-B652-967F561DA7BC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeVendedor" id="A9782C02-0AA1-276C-5802-8146006D49D9">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>551A90A5-97F4-668E-A9F5-C5BA37DF4F10</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83145DD9-5943-7AB4-BA60-137078E94800" name="Vendedor_PK">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-09 00:09:13 UTC</createdTime>
+<generatorID>0B8212A1-E6C2-2FF2-EE8A-0CEFE1EA8792</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="794947B4-4F91-3742-1EC7-88B2B004907E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="265F02B8-7D46-F3AD-7C2E-BB2ED9A54E39" name="EnderecoCliente">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-08 23:56:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B27E03A3-EEB1-91A0-A684-2D7B1DB9A2E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="5D843B22-4E92-55F5-989D-3E1AAF3CE941">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-08 23:56:08 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>E1AEE960-BF1C-8D09-4403-B8DB74D60563</importedID>
+<engineerTo>
+<item key="B27E03A3-EEB1-91A0-A684-2D7B1DB9A2E2" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEnderecoCliente" id="4EAFAEFF-5695-74C7-190F-01C8127D827C">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-08 23:56:08 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>4D492DED-53ED-AB6F-D204-5CAD4ADA2617</importedID>
+<engineerTo>
+<item key="B27E03A3-EEB1-91A0-A684-2D7B1DB9A2E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEnderecoCliente" id="1BF286D7-06E8-19D5-18C8-F5E354BFB28E">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-08 23:56:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>456CAB55-ED3E-0150-8A61-BDDBC6C70D44</importedID>
+<engineerTo>
+<item key="B27E03A3-EEB1-91A0-A684-2D7B1DB9A2E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEnderecoCliente" id="38D062DD-5483-953B-46FB-C9C558F6EC88">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-08 23:56:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>8C58D0EC-2628-CA8B-4FC7-118203D34202</importedID>
+<engineerTo>
+<item key="B27E03A3-EEB1-91A0-A684-2D7B1DB9A2E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEnderecoCliente" id="1A7A7592-7F46-50DA-EBAC-2AA9BFD185F7">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-08 23:56:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>42DB1A8A-B026-F283-E4C4-765804A48916</importedID>
+<engineerTo>
+<item key="B27E03A3-EEB1-91A0-A684-2D7B1DB9A2E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoCliente" id="CC03BAF5-F03A-163E-C4B5-D67202E1690F">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-08 23:56:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>64F9B037-B200-5743-A214-241CD644E6A2</importedID>
+<engineerTo>
+<item key="B27E03A3-EEB1-91A0-A684-2D7B1DB9A2E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoCliente" id="5122B673-FCED-9942-B496-7B2AD9090880">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-08 23:56:08 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>7E119E8B-F1E8-77B5-8AE4-5B4F405D3CEC</importedID>
+<engineerTo>
+<item key="B27E03A3-EEB1-91A0-A684-2D7B1DB9A2E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente2" id="BC9A601F-3B5D-8560-D9C5-42230731DB9A">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-08 23:56:34 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>D60190BF-EBB5-B750-1C97-C973F8405033</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B27E03A3-EEB1-91A0-A684-2D7B1DB9A2E2" value="true"/>
+</engineerTo>
+<referedAttribute>45C3278C-1012-F651-2000-8313EE27DB1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0D10F65-3A4A-65B3-A5B1-09CE9ACE5DA0" name="Clientes PK">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-08 23:56:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B27E03A3-EEB1-91A0-A684-2D7B1DB9A2E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D843B22-4E92-55F5-989D-3E1AAF3CE941</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

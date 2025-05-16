@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A60531C3-F40F-4B21-8CCE-6A80ECA6007C" name="Endereco">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="BB02F17B-6D1B-0D78-46CF-B6D6419AC691">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:40 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>CD61BE3F-E084-8836-6AA4-C024472E658E</importedID>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEndereco" id="0974451D-FA38-DD53-DB90-904BC194F665">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>2264C1E0-CA8D-BD99-32FD-5635DAF6C0E3</importedID>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEndereco" id="71C6DC66-B6F5-8D62-C0B0-22FD729FDA34">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:40 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>0A1C0C6E-7DAB-CFB0-F25F-5FA9881C9953</importedID>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEndereco" id="D1595968-F5EE-9E6B-8E86-7800D5067334">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>EF79D421-F39D-20EB-0B25-84A35D4317EB</importedID>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEndereco" id="4FB3BBAA-87B9-526A-3DF6-C96F7B1110F7">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>F80380B4-DDF3-7323-D8B1-10B1BA4A94EC</importedID>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEndereco" id="02B8AA5F-66CA-CFB9-A3FF-D8C5D895AF42">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>D8023A97-C1A4-C3C5-4CE6-328A3E278371</importedID>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEndereco" id="9DBCC561-F325-D84E-F06E-6418396C3727">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:40 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>F2FFF70E-846A-415D-E85F-7002590E6223</importedID>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="A896F8CB-68C7-3CB3-7A09-536CF1F006D6">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:39:14 UTC</createdTime>
+<generatorID>6E1C58E0-FCBA-365F-53FC-298441AF8713</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<referedAttribute>ED3961C1-D506-D106-626E-D775367BCA08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular2" id="14C0E752-6767-ED82-EFC2-78193C3EE1BF">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-16 00:22:25 UTC</createdTime>
+<generatorID>EF7FD11F-A95B-D438-7BB2-15A826DE031C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<referedAttribute>0893B5F7-246D-49EE-708F-0D6112EFB78D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDepedente" id="3B398408-4C23-84A4-64C3-370A0025C64B">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-16 00:22:25 UTC</createdTime>
+<generatorID>EF7FD11F-A95B-D438-7BB2-15A826DE031C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<referedAttribute>05E31D21-8AB0-F062-798D-6C9714D9EB02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16C47062-DCE3-0084-3B31-0D2C73FAD4D6" name="Clientes PK">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB02F17B-6D1B-0D78-46CF-B6D6419AC691</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

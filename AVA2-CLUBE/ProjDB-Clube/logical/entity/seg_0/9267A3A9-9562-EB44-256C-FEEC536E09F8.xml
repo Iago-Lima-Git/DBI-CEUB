@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9267A3A9-9562-EB44-256C-FEEC536E09F8" name="Titular">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:15:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="ED3961C1-D506-D106-626E-D775367BCA08">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:17:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="BB7825F9-C888-C491-0DAD-4C196C899F9D">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:19:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimentoTitular" id="885ADF4A-9AEF-0E5C-2823-36AA8A0BD5DE">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:21:37 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="3AB27C53-941C-4121-840E-D09BE6197B47">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:39:16 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>6E1C58E0-FCBA-365F-53FC-298441AF8713</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<referedAttribute>BB02F17B-6D1B-0D78-46CF-B6D6419AC691</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular2" id="A7E8CA9A-A746-9CA7-1F5B-B117ED53AC37">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:55:37 UTC</createdTime>
+<generatorID>B9B6EDD7-3A1E-9FC9-FED6-66F587B083B5</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<referedAttribute>F272A9F7-2251-7D06-8B30-A0692DED2D0D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="369A1C3F-A813-8063-CF32-ADA9CECC0A24" name="Titular PK">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:18:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED3961C1-D506-D106-626E-D775367BCA08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

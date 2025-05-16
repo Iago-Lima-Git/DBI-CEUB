@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A33F4F1E-4B4F-DB06-867E-3374AE9860A2" name="EmailTitular">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="25951416-F0D5-A54C-7B11-6850A8A16F17">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>DDA60FC5-DDBE-801E-432A-3FA97C4C799A</importedID>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emailTitular" id="814403D2-1C94-F07B-2A93-741BEBC3DD9D">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>EDD60DE7-E8D6-C280-69F5-304FD6F25749</importedID>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="D2756EB6-E40F-5CEC-4ECB-8621C45C0B6F">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:39:03 UTC</createdTime>
+<generatorID>3140C93E-F3F5-5112-D4A9-7E54038E18EC</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<referedAttribute>ED3961C1-D506-D106-626E-D775367BCA08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66AB1DA4-D2E8-AB5B-F984-58F15942B1B9" name="EmailCliente PK">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:20:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25951416-F0D5-A54C-7B11-6850A8A16F17</attributeRef>
+<attributeRef>814403D2-1C94-F07B-2A93-741BEBC3DD9D</attributeRef>
+<attributeRef>D2756EB6-E40F-5CEC-4ECB-8621C45C0B6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="2287F463-DD85-4D43-4D0F-984BE6B44C91">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:39:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<sourcePk>86139DB9-C8F1-34EB-7FD3-DF247FDBBDF5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7472EEE-BCE6-9F6E-7438-77E355A54CF4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>70DBA7D6-0098-19EA-E239-EF71BC0B3503</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

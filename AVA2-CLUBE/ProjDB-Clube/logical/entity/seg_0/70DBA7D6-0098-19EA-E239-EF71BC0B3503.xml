@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70DBA7D6-0098-19EA-E239-EF71BC0B3503" name="TelefonesDependente">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:28:54 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TelefonesCliente</shortName>
+<synonym>TelefonesCliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="461DE149-2E5A-0063-0D0D-D5B2CE1456AB">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:28:54 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneDependente" id="971C5F6D-C37A-83C7-BBF9-63B9DDBEE1C1">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:28:54 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefone" id="1524C961-6E45-9D09-D73C-7FF7D4721954">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:28:54 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="BB2E3E71-CEE9-76AA-E18A-C6014CD90A01">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:39:36 UTC</createdTime>
+<generatorID>2287F463-DD85-4D43-4D0F-984BE6B44C91</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<referedAttribute>0893B5F7-246D-49EE-708F-0D6112EFB78D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDepedente" id="5AE9E7A0-69A7-D11C-B0ED-AB1C2A061488">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:39:36 UTC</createdTime>
+<generatorID>2287F463-DD85-4D43-4D0F-984BE6B44C91</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<referedAttribute>05E31D21-8AB0-F062-798D-6C9714D9EB02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EA1F747-B512-E21E-34C6-0191460409EB" name="TelefonesCliente PK">
+<createdBy>iago.lima</createdBy>
+<createdTime>2025-05-15 23:28:54 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="9C99BCF5-3B0D-5155-2A9A-AF31E9088907" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>461DE149-2E5A-0063-0D0D-D5B2CE1456AB</attributeRef>
+<attributeRef>971C5F6D-C37A-83C7-BBF9-63B9DDBEE1C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
